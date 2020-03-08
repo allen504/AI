@@ -8,8 +8,9 @@ import java.io.IOException;
 public class tester {
 
     public static void main(String args[])throws IOException{
-        // Checks the current price of 1 share of Tesla Motors
+        //Calling the getTeslaStockPrice method from the AnalysisTool class
         System.out.println(AnalysisTool.getTeslaStockPrice());
+        //Calling the getTeslaOpenPrice method from the AnalysisTool class(nonfunctional)
         System.out.println(AnalysisTool.getTeslaOpenPrice());
 
     }
